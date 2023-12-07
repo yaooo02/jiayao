@@ -1,0 +1,195 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-800: rgba(52, 58, 64, 1);
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-default-bg1: rgba(237, 28, 36, 0.3499999940395355);
+  --dl-color-default-bg2: rgba(46, 44, 116, 0.20000000298023224);
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-color-default-white: rgba(255, 255, 255, 1);
+  --dl-radius-radius-round: 50%;
+  --dl-color-default-14bcb2: rgba(20, 188, 178, 1);
+  --dl-color-default-22214f: rgba(34, 33, 79, 1);
+  --dl-color-default-2e2d75: rgba(46, 44, 116, 1);
+  --dl-color-default-76748c: rgba(118, 116, 139, 1);
+  --dl-color-default-91bfc7: #91bfc7ff;
+  --dl-color-default-9d0b11: rgba(157, 11, 17, 1);
+  --dl-color-default-9d9d9d: rgba(157, 157, 157, 1);
+  --dl-color-default-ed1c24: rgba(237, 28, 36, 1);
+  --dl-color-default-f6d767: rgba(246, 215, 103, 1);
+  --dl-color-default-f87f7f: rgba(247, 127, 127, 1);
+  --dl-color-default-ffd232: rgba(255, 209, 49, 1);
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: translateY(0%) !important;
+}
+.pageNav {
+  gap: 20px;
+  top: 923px;
+  left: 528px;
+  width: 194px;
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Body {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BoldH1Heading {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading3 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Heading1 {
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 600;
+}
+.Emphasize {
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Alert {
+  font-size: 8px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.Description {
+  font-size: 10px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.Form\ Header {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.URL {
+  font-size: 8px;
+  font-style: italic;
+  font-family: Inter;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.Heading2 {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+}
+@media(max-width: 1200px) {
+  .pageNav {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
+
+
+
