@@ -650,3 +650,114 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
 }
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v702_2844 {
+  width: 100%;
+  height: 1524px;
+  background: url("../images/v702_2844.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v702_2832 {
+  width: 656px;
+  height: 669px;
+  background: linear-gradient(rgba(226,0,231,1), rgba(226,0,231,0.0416666679084301));
+  opacity: 1;
+  position: absolute;
+  top: 473px;
+  left: 436px;
+  border-radius: 50%;
+}
+.v702_2840 {
+  width: 656px;
+  height: 669px;
+  background: linear-gradient(rgba(226,0,231,1), rgba(226,0,231,0.0416666679084301));
+  opacity: 1;
+  position: absolute;
+  top: 266px;
+  left: 774px;
+  border-radius: 50%;
+}
+.v702_2841 {
+  width: 656px;
+  height: 669px;
+  background: linear-gradient(rgba(226,0,231,1), rgba(226,0,231,0.0416666679084301));
+  opacity: 1;
+  position: absolute;
+  top: 855px;
+  left: 187px;
+  border-radius: 50%;
+}
+.v702_2836 {
+  width: 656px;
+  height: 669px;
+  background: linear-gradient(rgba(0,36,231,1), rgba(226,0,231,0.0416666679084301));
+  opacity: 1;
+  position: absolute;
+  top: 138px;
+  left: 108px;
+  border-radius: 50%;
+}
+.v702_2838 {
+  width: 656px;
+  height: 669px;
+  background: linear-gradient(rgba(0,36,231,1), rgba(226,0,231,0.0416666679084301));
+  opacity: 1;
+  position: absolute;
+  top: 93px;
+  left: 546px;
+  border-radius: 50%;
+}
+.v702_2842 {
+  width: 656px;
+  height: 669px;
+  background: linear-gradient(rgba(0,36,231,1), rgba(226,0,231,0.0416666679084301));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 837px;
+  border-radius: 50%;
+}
+.v702_2837 {
+  width: 656px;
+  height: 669px;
+  background: linear-gradient(rgba(0,36,231,1), rgba(226,0,231,0.0416666679084301));
+  opacity: 1;
+  position: absolute;
+  top: 644px;
+  left: 0px;
+  border-radius: 50%;
+}
+.v702_2839 {
+  width: 656px;
+  height: 669px;
+  background: linear-gradient(rgba(0,36,231,1), rgba(226,0,231,0.0416666679084301));
+  opacity: 1;
+  position: absolute;
+  top: 669px;
+  left: 762px;
+  border-radius: 50%;
+}
+.v702_2843 {
+  width: 656px;
+  height: 669px;
+  background: linear-gradient(rgba(0,36,231,1), rgba(226,0,231,0.0416666679084301));
+  opacity: 1;
+  position: absolute;
+  top: 762px;
+  left: 726px;
+  border-radius: 50%;
+}
